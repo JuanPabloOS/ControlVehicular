@@ -1,0 +1,29 @@
+.mensaje{
+    width: 300px;
+    margin-top: 80px;
+    height: 300px;
+    margin-left: calc(50% - 150px);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid rgba(0,0,0,.2);
+    text-align: justify;
+    
+
+}
+.mensaje a{    
+    text-align: center;
+    font-size: 16px;
+    color:blue;
+}
+.mensaje span{
+    width:300px;
+    height: 25px;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px  10px 0px 0px;
+    background:red;
+    float:left;
+    text-align: center;
+    padding-top:5px;
+    box-sizing: border-box;
+}
+

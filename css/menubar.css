@@ -1,0 +1,138 @@
+*{
+padding: 0;
+margin:0;
+}
+
+body { 
+    background: white;
+    font-family: helvetica, arial, serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;    
+  }
+
+body, html{
+    height: 100%;
+}
+  .wrap {
+    position:absolute;
+    width:100%;
+    top:0px;
+  }
+  
+  /* a little "umph" */
+  
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+  
+  ul {
+    list-style: none;
+    position: relative;
+    text-align: left;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  /* clear'n floats */
+  ul:after {
+    clear: both;
+  }
+  
+  ul:before,
+  ul:after {
+      content: " ";
+      display: table;
+  }
+  
+  nav {
+    position: relative;
+    background: rgb(19, 81, 210);   
+    text-align: center;
+    letter-spacing: 1px;    
+    -webkit-box-shadow: 2px 2px 3px #888;
+    -moz-box-shadow: 2px 2px 3px #888;
+    box-shadow: 2px 2px 3px #888;        
+  }
+  
+  /* prime */
+  ul.primary li a {
+    display: block;
+    padding: 20px 30px;
+    border-right: 1px solid white;
+  }
+  
+  ul.primary li:last-child a {
+    border-right: none;
+  }
+  
+  ul.primary li a:hover {
+    
+    color: #000;
+  }
+  
+  /* subs */
+  ul.sub {
+    position: absolute;
+    z-index: 200;
+    box-shadow: 2px 2px 0 #BEBEBE;
+    width: 35%;
+    display:none;
+  }
+  
+  ul.sub li {
+    float: none;
+    margin: 0;
+  }
+  
+  ul.sub li a {
+    border-bottom: 1px dotted #ccc;
+    border-right: none;
+    color: #000;
+    padding: 15px 30px;
+  }
+  
+  ul.sub li:last-child a {
+    border-bottom: none;
+  }
+  
+  ul.sub li a:hover {
+    color: #000;
+    background: #eeeeee;
+  }
+  
+  /* sub display*/
+  ul.primary li:hover ul {
+    display: block;
+    background: #fff;
+  }
+  
+  /* keeps the tab background white */
+  ul.primary li:hover a {
+    background: #fff;
+    color: #666;
+    text-shadow: none;
+  }
+  
+  ul.primary li:hover > a{
+    color: #000;
+  } 
+
+  table{    
+    margin: auto;
+    border: 2px solid #ccc;
+    padding: 10px;
+  }
+  th,td{    
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+ 
+ 
+  
